@@ -40,3 +40,14 @@ footer.site{border-top:1px solid var(--line);color:var(--muted);font-size:13px;p
 footer.site a{color:var(--muted)}
 footer.site p+p{margin-top:6px}
 @media (max-width:480px){body{font-size:16px}.hero h1,article h1{font-size:24px}nav a{margin-left:12px}}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:12px}
+.crumbs a{color:var(--muted)}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:8px 0 20px;font-size:15px}
+.toc-t{font-weight:900;margin-bottom:6px}
+.toc ul{list-style:none}
+.toc li{margin:4px 0}
+.toc a{color:var(--ink)}
+.method{margin-top:32px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px;color:#3D3A33}
+.related{margin-top:28px}
+.related h2{font-size:20px;font-weight:900;margin-bottom:8px}
+.related ul{margin-left:1.2em}
