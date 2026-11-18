@@ -3,174 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>好價有沒有騙｜今日好價</title>
-<meta name="description" content="每天拆解網購好價：標價有沒有灌水、單價到底多少。">
+<title>好價有沒有騙</title>
+<meta name="description" content="買之前先比清楚，用最省的方式買對的東西">
+<link rel="canonical" href="https://lucaschen0511.github.io/dealcheck/">
+<meta property="og:site_name" content="好價有沒有騙">
+<meta property="og:title" content="好價有沒有騙">
+<meta property="og:description" content="買之前先比清楚，用最省的方式買對的東西">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lucaschen0511.github.io/dealcheck/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&display=swap" rel="stylesheet">
-<style>
-  :root { --paper:#F6F1E6; --ink:#17161A; --muted:#6E685E; --line:#DDD5C5; --yellow:#FFD23F; --card:#FFFFFF; }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { background:var(--paper); color:var(--ink); font-family:'Noto Sans TC',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
-  .wrap { max-width:560px; margin:0 auto; padding:28px 16px 48px; }
-  header { text-align:center; }
-  .brand { display:inline-block; background:var(--ink); color:var(--yellow); font-weight:900; font-size:20px; letter-spacing:2px; padding:8px 18px; border-radius:999px; }
-  .handle { color:var(--muted); font-size:14px; margin-top:8px; }
-  h1 { font-size:28px; font-weight:900; margin-top:18px; }
-  h1 span { background:linear-gradient(transparent 45%, var(--yellow) 45%, var(--yellow) 92%, transparent 92%); }
-  .lead { color:var(--muted); font-size:14px; margin-top:6px; line-height:1.6; }
-  ul { list-style:none; margin-top:22px; display:grid; gap:12px; }
-  .card { position:relative; display:grid; grid-template-columns:96px 1fr; gap:12px; background:var(--card); border-radius:18px; padding:14px; border:1px solid var(--line); scroll-margin-top:16px; }
-  .card:target { outline:3px solid var(--yellow); }
-  .num { position:absolute; top:-8px; left:-6px; background:var(--yellow); color:var(--ink); font-weight:900; font-size:14px; padding:2px 8px; border-radius:8px; }
-  .thumb { width:96px; height:96px; object-fit:contain; border-radius:12px; background:#fff; }
-  .info { min-width:0; }
-  .plat { font-size:12px; color:var(--muted); font-weight:700; }
-  .name { font-size:15px; font-weight:700; line-height:1.35; margin-top:2px; }
-  .row { display:flex; align-items:baseline; gap:8px; margin-top:4px; flex-wrap:wrap; }
-  .price { font-size:24px; font-weight:900; }
-  .sub { font-size:13px; color:var(--muted); }
-  .strike { text-decoration:line-through; }
-  .verdict { display:inline-block; margin-top:6px; font-size:13px; font-weight:900; color:var(--vc); border:2px solid var(--vc); border-radius:8px; padding:1px 8px; }
-  .why { font-size:13px; color:var(--ink); margin-top:6px; line-height:1.5; }
-  .btn { grid-column:1 / -1; display:block; text-align:center; background:var(--ink); color:var(--yellow); text-decoration:none; font-weight:900; font-size:16px; padding:12px; border-radius:12px; }
-  .btn:active { transform:translateY(1px); }
-  footer { margin-top:28px; color:var(--muted); font-size:12px; line-height:1.7; text-align:center; }
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/dealcheck/style.css">
+
+
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand">好價有沒有騙</div>
-    <div class="handle">@dealcheck.tw</div>
-    <h1><span>11/18 今日好價</span></h1>
-    <p class="lead">編號對應 IG 貼文的 #1～#10。每個都拆過標價和單價，不是只看打幾折。</p>
-  </header>
-  <ul>
-    <li class="card" id="d1">
-      <div class="num">#1</div>
-      <img class="thumb" src="img/01.jpg" alt="iWALK 六代直插式行動電源" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">蝦皮</div>
-        <div class="name">iWALK 六代直插式行動電源</div>
-        <div class="row"><span class="price">$760</span><span class="sub strike">標價 $1,150</span></div>
-        <div class="verdict" style="--vc:#0B8F4D">判定：真好價</div>
-        <div class="why">總代理正貨，$760 合理入手</div>
-      </div>
-      <a class="btn" href="https://s.shopee.tw/LosA8uQAk" target="_blank" rel="nofollow sponsored noopener">去蝦皮看</a>
-    </li>
-    <li class="card" id="d2">
-      <div class="num">#2</div>
-      <img class="thumb" src="img/02.jpg" alt="adidas STADT 運動休閒鞋" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">蝦皮</div>
-        <div class="name">adidas STADT 運動休閒鞋</div>
-        <div class="row"><span class="price">$1,111</span><span class="sub strike">標價 $3,290</span></div>
-        <div class="verdict" style="--vc:#0B8F4D">判定：真好價・限時</div>
-        <div class="why">官方直營 3 折多，尺寸要搶</div>
-      </div>
-      <a class="btn" href="https://s.shopee.tw/W8IMRtmpn" target="_blank" rel="nofollow sponsored noopener">去蝦皮看</a>
-    </li>
-    <li class="card" id="d3">
-      <div class="num">#3</div>
-      <img class="thumb" src="img/03.jpg" alt="MOCODO 全方位防滑拖鞋" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">蝦皮</div>
-        <div class="name">MOCODO 全方位防滑拖鞋</div>
-        <div class="row"><span class="price">$880</span><span class="sub strike">標價 $1,250</span></div>
-        <div class="verdict" style="--vc:#1C64D9">判定：值得買・送爸媽</div>
-        <div class="why">不便宜，但送長輩很值得</div>
-      </div>
-      <a class="btn" href="https://s.shopee.tw/gRiYkt9Uq" target="_blank" rel="nofollow sponsored noopener">去蝦皮看</a>
-    </li>
-    <li class="card" id="d4">
-      <div class="num">#4</div>
-      <img class="thumb" src="img/04.jpg" alt="WANTECH 寵物智能餵食器" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">蝦皮</div>
-        <div class="name">WANTECH 寵物智能餵食器</div>
-        <div class="row"><span class="price">$1,720</span><span class="sub">券後（原 $1,750）</span></div>
-        <div class="verdict" style="--vc:#0B8F4D">判定：真好價</div>
-        <div class="why">規格看清楚再下單</div>
-      </div>
-      <a class="btn" href="https://s.shopee.tw/ql8l3sW9t" target="_blank" rel="nofollow sponsored noopener">去蝦皮看</a>
-    </li>
-    <li class="card" id="d5">
-      <div class="num">#5</div>
-      <img class="thumb" src="img/05.jpg" alt="medicube AGE-R Booster PRO X2" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">蝦皮</div>
-        <div class="name">medicube AGE-R Booster PRO X2</div>
-        <div class="row"><span class="price">$7,500</span><span class="sub">券後（標價 $14,000）</span></div>
-        <div class="verdict" style="--vc:#C25F00">判定：看券後價</div>
-        <div class="why">要比的是券後 $7,500</div>
-      </div>
-      <a class="btn" href="https://s.shopee.tw/114YxMrsow" target="_blank" rel="nofollow sponsored noopener">去蝦皮看</a>
-    </li>
-    <li class="card" id="d6">
-      <div class="num">#6</div>
-      <img class="thumb" src="img/06.jpg" alt="LEGO 42232 Koenigsegg 超跑" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">酷澎</div>
-        <div class="name">LEGO 42232 Koenigsegg 超跑</div>
-        <div class="row"><span class="price">$10,449</span><span class="sub strike">標價 $15,999</span></div>
-        <div class="verdict" style="--vc:#0B8F4D">判定：真好價・送禮季</div>
-        <div class="why">65 折是用頁面標價算的</div>
-      </div>
-      <a class="btn" href="https://coupa.ng/cq5NQZ" target="_blank" rel="nofollow sponsored noopener">去酷澎看</a>
-    </li>
-    <li class="card" id="d7">
-      <div class="num">#7</div>
-      <img class="thumb" src="img/07.jpg" alt="Persil 植純粹洗衣凝露 6 袋" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">酷澎</div>
-        <div class="name">Persil 植純粹洗衣凝露 6 袋</div>
-        <div class="row"><span class="price">$1,199</span><span class="sub">一袋 $200</span></div>
-        <div class="verdict" style="--vc:#C25F00">判定：有折，沒那麼多</div>
-        <div class="why">標 74 折，實際只省 16%</div>
-      </div>
-      <a class="btn" href="https://coupa.ng/cq5NYb" target="_blank" rel="nofollow sponsored noopener">去酷澎看</a>
-    </li>
-    <li class="card" id="d8">
-      <div class="num">#8</div>
-      <img class="thumb" src="img/08.jpg" alt="Torriden 5D 玻尿酸保濕面膜 10 入" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">酷澎</div>
-        <div class="name">Torriden 5D 玻尿酸保濕面膜 10 入</div>
-        <div class="row"><span class="price">$629</span><span class="sub">一片 $62.9</span></div>
-        <div class="verdict" style="--vc:#1C64D9">判定：買 10 入就好</div>
-        <div class="why">組合包反而貴，買 10 入</div>
-      </div>
-      <a class="btn" href="https://coupa.ng/cq5N2s" target="_blank" rel="nofollow sponsored noopener">去酷澎看</a>
-    </li>
-    <li class="card" id="d9">
-      <div class="num">#9</div>
-      <img class="thumb" src="img/09.jpg" alt="象印超輕彈蓋保溫杯 480ml" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">酷澎</div>
-        <div class="name">象印超輕彈蓋保溫杯 480ml</div>
-        <div class="row"><span class="price">$560</span><span class="sub strike">標價 $660</span></div>
-        <div class="verdict" style="--vc:#1C64D9">判定：買單入就好</div>
-        <div class="why">2 入組沒有比較便宜</div>
-      </div>
-      <a class="btn" href="https://coupa.ng/cq5N4t" target="_blank" rel="nofollow sponsored noopener">去酷澎看</a>
-    </li>
-    <li class="card" id="d10">
-      <div class="num">#10</div>
-      <img class="thumb" src="img/10.jpg" alt="桐灰小白兔手握式暖暖包 30 片" width="96" height="96" loading="lazy">
-      <div class="info">
-        <div class="plat">酷澎</div>
-        <div class="name">桐灰小白兔手握式暖暖包 30 片</div>
-        <div class="row"><span class="price">$285</span><span class="sub">一片 $9.5</span></div>
-        <div class="verdict" style="--vc:#0B8F4D">判定：囤貨好價</div>
-        <div class="why">一片不到 $10，冬天先囤</div>
-      </div>
-      <a class="btn" href="https://coupa.ng/cq5N61" target="_blank" rel="nofollow sponsored noopener">去酷澎看</a>
-    </li>
-  </ul>
-  <footer>
-    <p>價格為 11/17 晚上實查，實際以商品頁為準。</p>
-    <p>本頁含蝦皮分潤計畫與酷澎合作夥伴（Coupang Partners）連結；本頁為酷澎合作夥伴活動的一部分，將因此獲得一定佣金，你的售價不變。</p>
-  </footer>
-</div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="/dealcheck/">好價有沒有騙</a>
+  <nav><a href="/dealcheck/">文章</a><a href="/dealcheck/about.html">關於</a><a href="/dealcheck/disclosure.html">揭露聲明</a></nav>
+</div></header>
+<main><div class="wrap">
+<section class="hero">
+  <h1><span>買之前先比清楚，用最省的方式買對的東西</span></h1>
+  <p>每篇都把價格、單價和隱藏費用拆開算，告訴你哪個方案真的比較省。</p>
+</section>
+<ul class="list"><li><a class="t" href="/dealcheck/posts/hotel-booking-hidden-costs.html">出國訂房別只比房價：結帳前會多出來的 6 筆錢（2026 年版）</a><div class="d">訂房網站上的列表價，常常不是最後要付的錢。整理稅金服務費、日本住宿稅、海外刷卡手續費、選台幣結帳、取消政策等 6 筆容易漏算的費用，附比價檢查清單。</div><div class="meta">發布 2026/11/18</div></li></ul>
+</div></main>
+<footer class="site"><div class="wrap">
+  <p>本站部分連結為聯盟行銷連結，透過連結購買我們可能獲得佣金，你的價格不變。<a href="/dealcheck/disclosure.html">揭露聲明</a>・<a href="/dealcheck/privacy.html">隱私權政策</a></p>
+  <p>© 2026 好價有沒有騙　IG／Threads @dealcheck.tw</p>
+</div></footer>
 </body>
 </html>
