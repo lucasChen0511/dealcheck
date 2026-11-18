@@ -1,3 +1,23 @@
+# 允許所有搜尋引擎與 AI 搜尋爬蟲
 User-agent: *
 Allow: /
-Sitemap: https://lucaschen0511.github.io/dealcheck/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+Sitemap: https://dealcheckfree.com/sitemap.xml
