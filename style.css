@@ -30,7 +30,7 @@ article .meta{color:var(--muted);font-size:14px;margin-top:8px}
 .body li{margin:6px 0}
 .body strong{background:linear-gradient(transparent 60%,var(--yellow) 60%)}
 .body table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;background:var(--card)}
-@media (max-width:600px){.body table{display:block;overflow-x:auto}}
+@media (max-width:600px){.body table{display:block;overflow-x:auto}.body th:first-child,.body td:first-child{min-width:6.5em}}
 .body th,.body td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
 .body th{background:#EFE8D8;font-weight:700;white-space:nowrap}
 .body blockquote{border-left:4px solid var(--yellow);padding:4px 0 4px 14px;color:#3D3A33;margin:16px 0}
