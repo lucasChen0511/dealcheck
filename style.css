@@ -87,11 +87,11 @@ article .meta{color:var(--muted);font-size:14px;margin:8px 0}
 
 /* 頁尾 */
 footer.site{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:28px 0 40px}
-.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:20px}
+.foot-grid{display:grid;grid-template-columns:1.4fr .8fr .9fr 1.4fr;gap:20px}
 .foot-grid p{margin-top:10px;font-size:13px;line-height:1.7}
 .foot-grid h2{font-size:13px;font-weight:900;color:var(--ink);margin-bottom:6px}
 .foot-grid ul{list-style:none}
-.foot-grid li{margin:4px 0}
+.foot-grid li{margin:4px 0;overflow-wrap:anywhere}
 footer.site a:not(.brand){color:var(--muted)}
 .fine{margin-top:20px;font-size:12px;line-height:1.7}
 .totop{position:fixed;right:16px;bottom:16px;width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--yellow);display:flex;align-items:center;justify-content:center;text-decoration:none;font-weight:900;font-size:20px;box-shadow:0 2px 10px rgba(0,0,0,.18);z-index:10;opacity:0;pointer-events:none;transition:opacity .2s}
@@ -102,7 +102,7 @@ footer.site a:not(.brand){color:var(--muted)}
   .topic-card{min-height:0}
   .cards,.related .cards{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr 1fr}
-  .foot-grid>div:first-child{grid-column:1/-1}
+  .foot-grid>div:first-child,.foot-grid>div:last-child{grid-column:1/-1}
 }
 @media (max-width:600px){
   .body .tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
