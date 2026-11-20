@@ -84,6 +84,17 @@ article .meta{color:var(--muted);font-size:14px;margin:8px 0}
 .related h2{font-size:20px;font-weight:900}
 .related .cards{grid-template-columns:1fr 1fr}
 .related .card .d{display:none}
+.picks{margin-top:32px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.picks h2{font-size:18px;font-weight:900;line-height:1.4}
+.picks .note{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.6}
+.pick-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:12px}
+.pick-list.n4{grid-template-columns:repeat(2,1fr)}
+.pick{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.pick .shop{align-self:flex-start;font-size:12px;font-weight:900;background:var(--ink);color:var(--yellow);border-radius:999px;padding:1px 10px;line-height:1.8}
+.pick b{font-size:16px;font-weight:900;line-height:1.45;margin-top:8px}
+.pick .why{font-size:14px;color:#3D3A33;line-height:1.6;margin:4px 0 12px}
+.pick a.go{margin-top:auto;display:block;text-align:center;background:var(--yellow);color:var(--ink);font-weight:900;font-size:14px;border-radius:999px;padding:7px 12px;text-decoration:none}
+.pick a.go:hover{background:var(--ink);color:var(--yellow)}
 .adbox{margin-top:32px;text-align:center}
 .adlabel{font-size:12px;color:var(--muted);margin-bottom:6px}
 .adbox iframe{border:0;max-width:100%;background:var(--card);border-radius:8px}
@@ -111,6 +122,7 @@ footer.site a:not(.brand){color:var(--muted)}
   .body .tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
   .body .tbl.wide table{min-width:620px}
   .tbl-hint{display:block}
+  .pick-list.n4{grid-template-columns:1fr}
   .body th:first-child,.body td:first-child{min-width:6.5em}
   .body .tbl.compact th,.body .tbl.compact td{padding:9px 7px;font-size:14px}
   .body .tbl.compact th:first-child,.body .tbl.compact td:first-child{min-width:0}
