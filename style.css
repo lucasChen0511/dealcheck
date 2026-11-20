@@ -84,6 +84,9 @@ article .meta{color:var(--muted);font-size:14px;margin:8px 0}
 .related h2{font-size:20px;font-weight:900}
 .related .cards{grid-template-columns:1fr 1fr}
 .related .card .d{display:none}
+.adbox{margin-top:32px;text-align:center}
+.adlabel{font-size:12px;color:var(--muted);margin-bottom:6px}
+.adbox iframe{border:0;max-width:100%;background:var(--card);border-radius:8px}
 
 /* 頁尾 */
 footer.site{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:28px 0 40px}
@@ -109,6 +112,8 @@ footer.site a:not(.brand){color:var(--muted)}
   .body .tbl.wide table{min-width:620px}
   .tbl-hint{display:block}
   .body th:first-child,.body td:first-child{min-width:6.5em}
+  .body .tbl.compact th,.body .tbl.compact td{padding:9px 7px;font-size:14px}
+  .body .tbl.compact th:first-child,.body .tbl.compact td:first-child{min-width:0}
   .pn{grid-template-columns:1fr}
   .pn .next{text-align:left}
   .totop{right:12px;bottom:12px;width:40px;height:40px;font-size:18px}
